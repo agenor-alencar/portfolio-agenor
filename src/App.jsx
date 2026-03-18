@@ -133,7 +133,7 @@ const HeroSection = () => (
           Software Engineer & Full Stack Developer
         </h2>
         <p className="text-lg md:text-xl text-gray-300 font-light max-w-2xl mx-auto leading-relaxed mb-10">
-          Especialista em ecossistemas Java e Spring Boot. Transformo gargalos logísticos em soluções de alta disponibilidade e escala.
+          Com Sólida base técnica e experiência prática em ecossistemas Java e Spring Boot. Transformo gargalos logísticos em soluções de alta disponibilidade e escala.
         </p>
       </div>
 
