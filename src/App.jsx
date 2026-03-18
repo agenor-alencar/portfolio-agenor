@@ -152,7 +152,7 @@ const HeroSection = () => (
 // --- About Section ---
 const AboutSection = () => (
   <section id="sobre" className="py-24 px-6 max-w-6xl mx-auto">
-    <SectionTitle subtitle="Conheça mais sobre minha trajetória e paixão por tecnologia">
+    <SectionTitle subtitle="Conheça mais sobre minha trajetória e experiência.">
       Sobre Mim
     </SectionTitle>
 
@@ -167,7 +167,7 @@ const AboutSection = () => (
         </p>
 
         <p className="text-gray-300 text-lg leading-relaxed">
-          Como fundador do <strong>Win Marketplace</strong>, O WIN não nasceu em um escritório, mas no chão de loja. Ao enfrentar diariamente os desafios logísticos do varejo, decidi construir a tecnologia que faltava para integrar vendas e entregas em tempo real.
+          Como fundador do <strong>Win Marketplace</strong>, construí uma solução que nasceu no chão de loja, não em um escritório. Enfrentei os desafios logísticos do varejo e transformei-os em um motor de sincronização entre vendas e entregas em tempo real.
         </p>
 
         <div className="pt-4 flex gap-4">
