@@ -52,7 +52,7 @@ const Navbar = () => {
     { label: 'Sobre', href: '#sobre' },
     { label: 'Habilidades', href: '#skills' },
     { label: 'Projetos', href: '#projects' },
-    { label: 'Experiência', href: '#experience' },
+    { label: 'Experiência', href: '#complementary-experience' },
     { label: 'Contato', href: '#contact' },
   ];
 
@@ -226,7 +226,7 @@ const WINProject = () => {
   const goToSlide = (index) => setCurrentSlide(index);
 
   return (
-    <section className="py-24 px-6 max-w-6xl mx-auto">
+    <section id="projects" className="py-24 px-6 max-w-6xl mx-auto">
       <SectionTitle subtitle="Ecossistema autoral de alta complexidade para logística e vendas.">
         Projeto Win Marketplace
       </SectionTitle>
@@ -346,7 +346,7 @@ const WINProject = () => {
 
 
 
-// --- Outros Projetos (Ecograna) ---
+// --- Experiência Complementar ---
 const ProjectsSection = () => {
   const otherProjects = [
     {
@@ -364,7 +364,7 @@ const ProjectsSection = () => {
   ];
 
   return (
-    <section id="projects" className="py-24 px-6 max-w-6xl mx-auto">
+    <section id="complementary-experience" className="py-24 px-6 max-w-6xl mx-auto">
       <SectionTitle subtitle="Outras colaborações e projetos relevantes.">Experiência Complementar</SectionTitle>
       <div className="grid md:grid-cols-2 gap-6">
         {otherProjects.map(p => (
